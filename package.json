@@ -1,0 +1,20 @@
+{
+  "name": "agricultural-management-system",
+  "version": "1.0.0",
+  "description": "MQTT-based system for agricultural sensor monitoring and device control",
+  "main": "index.js",
+  "scripts": {
+    "start-broker": "docker-compose up -d",
+    "stop-broker": "docker-compose down",
+    "simulator": "node mqtt-sensor-simulator.js",
+    "controller": "node mqtt-device-controller.js",
+    "test": "node mqtt-broker-test.js",
+    "test-client": "node mqtt-test-client.js"
+  },
+  "dependencies": {
+    "mqtt": "^4.3.7"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

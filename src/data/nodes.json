@@ -1,0 +1,155 @@
+[
+  {
+    "id": "node-001",
+    "name": "Garden Bed 1",
+    "location": "East Field",
+    "status": "online",
+    "lastUpdated": "2025-03-27T00:00:00.000Z",
+    "sensors": {
+      "soilMoisture": {
+        "value": 65.5,
+        "unit": "%",
+        "status": "optimal"
+      },
+      "light": {
+        "value": 850,
+        "unit": "lux",
+        "status": "optimal"
+      },
+      "humidity": {
+        "value": 62.3,
+        "unit": "%",
+        "status": "optimal"
+      },
+      "temperature": {
+        "value": 22.4,
+        "unit": "°C",
+        "status": "optimal"
+      }
+    },
+    "controls": {
+      "watering": {
+        "isActive": false,
+        "mode": "auto"
+      },
+      "lighting": {
+        "isActive": false,
+        "mode": "auto"
+      }
+    },
+    "devices": {
+      "watering": {
+        "isActive": false,
+        "mode": "auto",
+        "lastActivated": null
+      },
+      "humidity": {
+        "isActive": false,
+        "mode": "auto",
+        "lastActivated": null
+      }
+    }
+  },
+  {
+    "id": "node-002",
+    "name": "Garden Bed 2",
+    "location": "West Field",
+    "status": "online",
+    "lastUpdated": "2025-03-27T00:00:00.000Z",
+    "sensors": {
+      "soilMoisture": {
+        "value": 35.8,
+        "unit": "%",
+        "status": "low"
+      },
+      "light": {
+        "value": 920,
+        "unit": "lux",
+        "status": "optimal"
+      },
+      "humidity": {
+        "value": 58.7,
+        "unit": "%",
+        "status": "optimal"
+      },
+      "temperature": {
+        "value": 23.1,
+        "unit": "°C",
+        "status": "optimal"
+      }
+    },
+    "controls": {
+      "watering": {
+        "isActive": true,
+        "mode": "auto"
+      },
+      "lighting": {
+        "isActive": false,
+        "mode": "auto"
+      }
+    },
+    "devices": {
+      "watering": {
+        "isActive": true,
+        "mode": "auto",
+        "lastActivated": "2025-03-27T00:00:00.000Z"
+      },
+      "humidity": {
+        "isActive": false,
+        "mode": "auto",
+        "lastActivated": null
+      }
+    }
+  },
+  {
+    "id": "node-003",
+    "name": "Greenhouse",
+    "location": "North Field",
+    "status": "online",
+    "lastUpdated": "2025-03-27T00:00:00.000Z",
+    "sensors": {
+      "soilMoisture": {
+        "value": 70.2,
+        "unit": "%",
+        "status": "high"
+      },
+      "light": {
+        "value": 1100,
+        "unit": "lux",
+        "status": "optimal"
+      },
+      "humidity": {
+        "value": 55.4,
+        "unit": "%",
+        "status": "optimal"
+      },
+      "temperature": {
+        "value": 24.8,
+        "unit": "°C",
+        "status": "optimal"
+      }
+    },
+    "controls": {
+      "watering": {
+        "isActive": false,
+        "mode": "auto"
+      },
+      "lighting": {
+        "isActive": true,
+        "mode": "auto"
+      }
+    },
+    "devices": {
+      "watering": {
+        "isActive": false,
+        "mode": "auto",
+        "lastActivated": null
+      },
+      "humidity": {
+        "isActive": true,
+        "mode": "auto",
+        "lastActivated": "2025-03-27T00:00:00.000Z"
+      }
+    }
+  }
+]
