@@ -12,7 +12,7 @@ const path = require('path');
 // Configuration
 const MQTT_BROKER = process.env.MQTT_BROKER || 'mqtt://localhost:1883';
 const DATA_FILE = path.join(__dirname, 'src/data/nodes.json');
-const UPDATE_INTERVAL = 5000; // 5 seconds
+const UPDATE_INTERVAL = 30000; // 5 seconds
 
 // MQTT Topics
 const TOPICS = {

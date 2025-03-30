@@ -25,7 +25,20 @@ npm run start-broker
 docker-compose up -d
 ```
 
-This will start the Mosquitto MQTT broker on port 1883 (MQTT) and 9001 (WebSockets).
+This will start the Mosquitto MQTT broker on port 1883 (MQTT) and 9001 (WebSockets). The broker is configured to be accessible from the local network, not just from the host machine.
+
+#### Network Configuration
+
+The MQTT broker is exposed to the local network, allowing other devices on the same network to connect to it. This enables:
+
+- Agricultural nodes to connect from anywhere on the local network
+- Remote monitoring and control from other computers on the network
+- Integration with other systems and devices on the network
+
+To connect from another device on the network, use the host machine's IP address:
+```
+mqtt://[host-ip-address]:1883
+```
 
 ### Running the Sensor Simulator
 
